@@ -31,6 +31,12 @@ navigation:
 
   - title: "Qt Creator Android Setup"
     url: "/en/qt/android"
+  -
+  - title: "Bluetooth Modules (Archive)"
+    url: "/en/qt/archive/bluetooth-modules"
+
+  - title: "Develop Android Apps with Qt (Archive)"
+    url: "/en/qt/archive/develop-android-apps-with-qt"
 
 cards:
 - title: "Quick Links"
