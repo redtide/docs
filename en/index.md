@@ -9,6 +9,10 @@ date_fmt: "%B %d, %Y"
 This project is aimed to provide quick documentation on how to use various
 development tools.
 
+Contribuitions are welcome, if you find something wrong, just report an [issue][].
+
+[issue]: https://github.com/redtide/dev-docs/issues/
+
 </div>
 
 # Latest News
