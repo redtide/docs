@@ -1,0 +1,49 @@
+navigation:
+- title: "Deployment"
+  type: "dropdown"
+  pages:
+    - title: "AppVeyor"
+      url: "/en/deploy/ci/appveyor"
+
+    - title: "Travis"
+      url: "/en/deploy/ci/travis"
+    -
+    - title: "Linux AppImg with Linuxdeploy"
+      url: "/en/deploy/linux/appimg"
+
+    - title: "Arch User Repository"
+      url: "/en/deploy/linux/aur"
+
+    - title: "Linux: macOS and Windows Icons"
+      url: "/en/deploy/linux/macos-windows-icons"
+    -
+    - title: "macOS Apple Disk Images"
+      url: "/en/deploy/macos-dmg"
+    -
+    - title: "Windows InnoSetup"
+      url: "/en/deploy/windows-innosetup"
+
+- title: "Qt"
+  type: "dropdown"
+  pages:
+    - title: "Qt Creator Installation & Configuration"
+      url: "/en/qt/qtcreator"
+
+    - title: "Qt Creator Android Setup"
+      url: "/en/qt/android"
+
+cards:
+- title: Quick Links
+  icon_type: link
+  icon_category: fas
+  links:
+    - title: "CppCoreGuidelines"
+      url: "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+      icon_type: "code"
+      icon_category: "fas"
+
+    - title: Arch Linux Wiki
+      url: "https://wiki.archlinux.org/"
+      icon_type: "linux"
+      icon_category: "fab"
+
