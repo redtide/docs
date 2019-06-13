@@ -1,10 +1,10 @@
 ---
 title: "New Website Launched"
-date: 2017-10-22
+date: "2019-06-13"
 date_fmt: "%F"
 comments: true
-categories: news
-lang: en
+categories: "news"
+lang: "en"
 ---
 We're proud to announce a new website!
 

@@ -1,6 +1,6 @@
-# Source code for the [DevDocs][] website documentation project
+# Source code for the [dev-docs][] website documentation project
 
 Built with [Jekyllize][]
 
-[DevDocs]: https://redtide.github.io/docs
+[dev-docs]: https://redtide.github.io/dev-docs/
 [Jekyllize]: https://jekyllize.github.io/
