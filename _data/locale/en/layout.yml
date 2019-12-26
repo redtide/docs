@@ -1,4 +1,10 @@
 navigation:
+- title: "Build"
+  type: "dropdown"
+  pages:
+  - title: "MinGW-w64"
+    url: "/en/build/mingw64"
+
 - title: "Deployment"
   type: "dropdown"
   pages:
