@@ -37,6 +37,9 @@ navigation:
 
   - title: "Qt Creator Android Setup"
     url: "/en/qt/android"
+
+  - title: "Translations"
+    url: "/en/qt/translations"
   -
   - title: "Bluetooth Modules (Archive)"
     url: "/en/qt/archive/bluetooth-modules"
