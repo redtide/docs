@@ -2,14 +2,12 @@
 title: Minimalist GNU for Windows Kit
 ---
 
-Currently using all the following tools with different terminals, the native
+Currently using the following tools for different terminals: native
 cmd.exe (or powershell, MinGW) and the POSIX shell (MSYS2).
 
 ## MSYS2
 
-Working in a POSIX shell:
-
-- Download MSYS2 from https://www.msys2.org (<http://repo.msys2.org/distrib/x86_64/msys2-x86_64-20190524.exe>)
+- Download [MSYS2] from <https://www.msys2.org>
 - Once installed you will have 3 shortcuts:
   - MSYS2 MinGW 32-bit
   - MSYS2 MinGW 64-bit <- use this once configuration is done
@@ -43,6 +41,7 @@ MinGW doesn't currently provide Git, see also [this issue].
 On CMake use [-G "MinGW Makefiles"] option.
 
 
+[MSYS2]:                http://repo.msys2.org/distrib/x86_64/msys2-x86_64-20190524.exe
 [this issue]:           https://github.com/msys2/MINGW-packages/issues/3003
 [Git for Windows]:      https://gitforwindows.org/
 [-G "MSYS Makefiles"]:  https://cmake.org/cmake/help/latest/generator/MinGW%20Makefiles.html
