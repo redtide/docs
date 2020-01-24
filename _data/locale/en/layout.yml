@@ -1,4 +1,13 @@
 navigation:
+- title: "Git"
+  type: "dropdown"
+  pages:
+  - title: "Remove a Submodule"
+    url: "/en/git/remove_submodule"
+
+  - title: "Multiple Remotes"
+    url: "/en/git/multiple_remotes"
+
 - title: "Build"
   type: "dropdown"
   pages:

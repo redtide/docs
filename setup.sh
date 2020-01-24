@@ -10,11 +10,14 @@ if [ "$1" == "--help" ] ||  [ "$1" == "-h" ]; then
 	exit 0
 fi
 
+if [ ! -d ".bundle" ] || [ "$1" == "-i" ] || [ "$1" == "--install" ]; then
+	gem update --user-install
+	gem install bundler --user-install
+	bundle config set path '.bundle'
+	bundle install
+fi
+
 if [ ! -d "node_modules" ] || [ "$1" == "-i" ] || [ "$1" == "--install" ]; then
-	gem update
-	echo "Installing Bundler..."
-	gem install bundler
-	echo "Running Yarn install..."
 	yarn --no-bin-links
 fi
 
