@@ -1,9 +1,13 @@
 ---
 title: "Multiple Remotes"
 ---
-- Given an `origin` remote:
-  `$ git remote -v`
-  `origin REMOTE-URL-1 (fetch)`
+Given `origin` as remote:
+
+```
+$ git remote -v
+origin REMOTE-URL-1 (fetch)
+```
+
 - Register 1st push URL: `git remote set-url --add origin --push REMOTE-URL-1`.
 - Register 2nd push URL: `git remote set-url --add origin --push REMOTE-URL-2`.
 - Push a branch to all the remotes with `git push origin BRANCH` – replace `BRANCH`
