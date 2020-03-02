@@ -56,6 +56,12 @@ navigation:
   - title: "Develop Android Apps with Qt (Archive)"
     url: "/en/qt/archive/develop-android-apps-with-qt"
 
+- title: "Jekyll"
+  type: "dropdown"
+  pages:
+  - title: "Install RVM"
+    url: "/en/jekyll/rvm"
+
 cards:
 - title: "Quick Links"
   icon_type: "link"
