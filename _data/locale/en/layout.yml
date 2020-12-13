@@ -62,6 +62,9 @@ navigation:
   - title: "Install RVM"
     url: "/en/jekyll/rvm"
 
+  - title: "Troubleshooting"
+    url: "/en/jekyll/troubleshooting"
+
 cards:
 - title: "Quick Links"
   icon_type: "link"
