@@ -2,6 +2,9 @@ navigation:
 - title: "Git"
   type: "dropdown"
   pages:
+  - title: "Edit a Submodule"
+    url: "/en/git/edit_submodule"
+
   - title: "Remove a Submodule"
     url: "/en/git/remove_submodule"
 
