@@ -8,6 +8,9 @@ navigation:
   - title: "Remove a Submodule"
     url: "/en/git/remove_submodule"
 
+  - title: "Force push and pull"
+    url: "/en/git/force_push_pull"
+
   - title: "Multiple Remotes"
     url: "/en/git/multiple_remotes"
 
