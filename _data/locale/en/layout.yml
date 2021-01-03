@@ -105,7 +105,7 @@ cards:
   icon_category: "fas"
   links:
   - title: "GitHub Project"
-    url: "https://github.com/redtide/dev-docs"
+    url: "https://github.com/redtide/notepad"
     icon_type: "github"
     icon_category: "fab"
 

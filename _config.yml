@@ -38,15 +38,15 @@ exclude:
 plugins:
 - jekyll-sitemap
 
-url: "https://redtide.github.io/dev-docs"
+url: "https://redtide.github.io/notepad"
 
 organization:
-  name: "Dev Docs"
-  url: "https://redtide.github.io/dev-docs"
+  name: "Notepad"
+  url: "https://redtide.github.io/notepad"
 
 repository:
   branch: "master"
-  url: "https://github.com/redtide/dev-docs"
+  url: "https://github.com/redtide/notepad"
 
 locale:
   default: "en"
