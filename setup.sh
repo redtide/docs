@@ -15,19 +15,14 @@ if [ "$1" == "--help" ] || [ "$1" == "-h" ]; then
 	exit 0
 fi
 
-if [ ! -d ".bundle" ] || [ "$1" == "-i" ] || [ "$1" == "--install" ]; then
-	gem update --user-install
-	gem install bundler --user-install
-	bundle config set path '.bundle'
+if [ "$1" == "-i" ] || [ "$1" == "--install" ]; then
+	gem update
+	gem install bundler
 	bundle install
-fi
-
-if [ ! -d "node_modules" ] || [ "$1" == "-i" ] || [ "$1" == "--install" ]; then
 	yarn --no-bin-links
 fi
 
 if [ ! -f "assets/css/style.min.css" ] || [ "$1" == "-a" ] || [ "$1" == "--assets" ]; then
-	echo "Running Yarn dist..."
 	yarn dist
 fi
 
@@ -35,5 +30,4 @@ if [ "$1" == "-I" ] || [ "$1" == "--incremental" ]; then
 	incremental="-I"
 fi
 
-echo "Running Jekyll..."
 bundle exec jekyll serve --watch --host=0.0.0.0 $incremental
