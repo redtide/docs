@@ -7,7 +7,7 @@ layout: "home"
 This project is aimed to provide quick documentation on how to use various
 development tools.
 
-Contribuitions are welcome, if you find something wrong, just report an [issue][].
+Contribuitions are welcome, feel free to report an [issue].
 
 [issue]: https://github.com/redtide/notepad/issues/
 
