@@ -1,6 +1,5 @@
 ---
 title: "macOS & Windows Icons with Linux"
-lang: "en"
 ---
 ## macOS icons from PNG
 
@@ -20,7 +19,7 @@ icon_256px.png
 png2icns icon.icns icon_*px.png
 ```
 
-Source: [Creating Mac OS X Icons on Linux](https://dentrassi.de/2014/02/25/creating-mac-os-x-icons-icns-on-linux/)
+Source: [Creating Mac OS X Icons on Linux]
 
 ## Windows icons from PNG
 
@@ -31,8 +30,14 @@ Using icoutils:
 icotool -c -o icon.ico icon_*px.png
 ```
 
-Using [png2ico](https://www.winterdrache.de/freeware/png2ico/).
+Using [png2ico].
 Width must be multiple of 8 and < 256. Height must be < 256.
 ```bash
 png2ico icon.ico icon_128px.png
 ```
+
+Additional information on this topic can be found also on the [Qt website].
+
+[Creating Mac OS X Icons on Linux]: https://dentrassi.de/2014/02/25/creating-mac-os-x-icons-icns-on-linux/
+[png2ico]:    https://www.winterdrache.de/freeware/png2ico/
+[Qt website]: https://doc.qt.io/qt-5/appicon.html
