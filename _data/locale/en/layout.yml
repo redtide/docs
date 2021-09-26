@@ -68,6 +68,9 @@ navigation:
   - title: "Install RVM"
     url: "/en/jekyll/rvm"
 
+  - title: "Syntax Highlighting"
+    url: "/en/jekyll/syntax-highlighting"
+
   - title: "Troubleshooting"
     url: "/en/jekyll/troubleshooting"
 
