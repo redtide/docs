@@ -74,6 +74,9 @@ navigation:
   - title: "Troubleshooting"
     url: "/en/jekyll/troubleshooting"
 
+- title: "VirtualBox"
+  url: "/en/virtualbox"
+
 cards:
 - title: "Quick Links"
   icon_type: "link"
