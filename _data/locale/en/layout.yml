@@ -71,9 +71,6 @@ navigation:
   - title: "Syntax Highlighting"
     url: "/en/jekyll/syntax-highlighting"
 
-  - title: "Troubleshooting"
-    url: "/en/jekyll/troubleshooting"
-
 - title: "VirtualBox"
   url: "/en/virtualbox"
 
