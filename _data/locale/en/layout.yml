@@ -14,6 +14,12 @@ navigation:
   - title: "Multiple Remotes"
     url: "/en/git/multiple_remotes"
 
+- title: "GitHub"
+  type: "dropdown"
+  pages:
+  - title: "Release assets download"
+    url: "/en/github/download-assets"
+
 - title: "Build"
   type: "dropdown"
   pages:
