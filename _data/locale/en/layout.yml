@@ -17,8 +17,8 @@ navigation:
 - title: "GitHub"
   type: "dropdown"
   pages:
-  - title: "Release assets download"
-    url: "/en/github/download-assets"
+  - title: "Various REST API commands"
+    url: "/en/github/rest-api"
 
 - title: "Build"
   type: "dropdown"

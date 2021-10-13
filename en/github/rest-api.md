@@ -1,7 +1,7 @@
 ---
-title: "Release assets download"
+title: "Various REST API commands"
 ---
-Using GitHub [REST] API:
+## [Release assets] download
 
 ```sh
 curl -LJO \
@@ -23,5 +23,17 @@ curl -LJO \
         https://api.github.com/repos/${username}/${repo}/releases/tags/${tag_name}
     ```
 
-[token]: https://github.com/settings/tokens
-[REST]:  https://docs.github.com/en/rest/reference/repos#get-a-release-asset
+## Run Actions workflow
+
+```sh
+curl \
+-u ${username}:${token} \
+-X POST \
+-H "Accept: application/vnd.github.v3+json" \
+https://api.github.com/repos/${username}/${repo}/actions/workflows/${yml_filename}/dispatches \
+-d '{"ref":"${branch}"}'
+```
+
+
+[token]:          https://github.com/settings/tokens
+[Release assets]: https://docs.github.com/en/rest/reference/repos#get-a-release-asset
