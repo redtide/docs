@@ -1,1 +1,1 @@
-# Miscellaneous development notepad
+# Miscellaneous development notes

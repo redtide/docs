@@ -1,8 +1,8 @@
 {
-	"name": "notepad",
+	"name": "notes",
 	"version": "0.2.0",
 	"author": "redtide <redtid3@gmail.com>",
-	"homepage": "https://github.com/redtide/notepad",
+	"homepage": "https://github.com/redtide/notes",
 	"scripts": {
 		"css": "node node_modules/npm-run-all/bin/run-s/index.js css-compile css-prefix css-minify",
 		"css-compile": "node node_modules/node-sass/bin/node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 _assets/scss/style.scss assets/css/style.css",
@@ -17,10 +17,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:redtide/notepad.git"
+		"url": "git@github.com:redtide/notes.git"
 	},
 	"bugs": {
-		"url": "https://github.com/redtide/notepad/issues"
+		"url": "https://github.com/redtide/notes/issues"
 	},
 	"license": "MPL-2.0",
 	"engines": {

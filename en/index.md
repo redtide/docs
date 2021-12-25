@@ -9,6 +9,6 @@ development tools.
 
 Contribuitions are welcome, feel free to report an [issue].
 
-[issue]: https://github.com/redtide/notepad/issues/
+[issue]: https://github.com/redtide/notes/issues/
 
 </div>
