@@ -8,6 +8,9 @@ navigation:
   - title: "Remove a Submodule"
     url: "/en/git/remove_submodule"
 
+  - title: "Shallow Modules"
+    url: "/en/git/shallow_modules"
+
   - title: "Force push and pull"
     url: "/en/git/force_push_pull"
 
