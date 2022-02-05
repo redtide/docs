@@ -1,14 +1,17 @@
 ---
-title: "Force push and pull"
+title: "Push and pull"
 ---
-To push on last commit (only for Pull/Merge Requests):
+### Replace last commit
+
+Note: to use only with Pull/Merge Requests
 
 ```sh
 $ git add .
 $ git commit --amend --no-edit
 $ git push -f origin branch-name
 ```
-To pull force pushed commit just:
+
+### Pull force pushed commits
 
 ```sh
 $ git fetch origin

@@ -1,5 +1,5 @@
 ---
-title: "Various REST API commands"
+title: "REST API"
 ---
 ## [Release assets] download
 

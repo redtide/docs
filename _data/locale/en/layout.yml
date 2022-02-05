@@ -2,25 +2,25 @@ navigation:
 - title: "Git"
   type: "dropdown"
   pages:
-  - title: "Edit a Submodule"
-    url: "/en/git/edit_submodule"
+  - title: "Commits"
+    url: "/en/git/commits"
 
-  - title: "Remove a Submodule"
-    url: "/en/git/remove_submodule"
+  - title: "Push and pull"
+    url: "/en/git/push-pull"
 
-  - title: "Shallow Modules"
-    url: "/en/git/shallow_modules"
+  - title: "Rebase"
+    url: "/en/git/rebase"
 
-  - title: "Force push and pull"
-    url: "/en/git/force_push_pull"
+  - title: "Remotes"
+    url: "/en/git/remotes"
 
-  - title: "Multiple Remotes"
-    url: "/en/git/multiple_remotes"
+  - title: "Submodules"
+    url: "/en/git/submodules"
 
 - title: "GitHub"
   type: "dropdown"
   pages:
-  - title: "Various REST API commands"
+  - title: "REST API"
     url: "/en/github/rest-api"
 
 - title: "Build"
