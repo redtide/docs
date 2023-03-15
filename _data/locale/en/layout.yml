@@ -120,8 +120,3 @@ cards:
     url: "https://github.com/redtide/notes"
     icon_type: "github"
     icon_category: "fab"
-
-  - title: "News Atom Feed"
-    url: "/en/atom.xml"
-    icon_type: "rss"
-    icon_category: "fas"
