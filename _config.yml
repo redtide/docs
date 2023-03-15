@@ -21,6 +21,10 @@ defaults:
 
 exclude:
 - assets/css/style.css
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
 - Gemfile
 - Gemfile.lock
 - LICENSE
@@ -52,7 +56,7 @@ locale:
   default: "en"
 
 authors:
-  content: "RedTide"
-  web: "RedTide"
+  content: "redtide"
+  web: "redtide"
 
 spdx_license_id: "MPL-2.0"

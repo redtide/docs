@@ -1,5 +1,7 @@
 #!/bin/bash
+
 set -e
+
 cd $PWD
 
 if [ "$1" == "--help" ] || [ "$1" == "-h" ]; then
@@ -15,7 +17,9 @@ if [ "$1" == "--help" ] || [ "$1" == "-h" ]; then
 	exit 0
 fi
 
-if [ "$1" == "-i" ] || [ "$1" == "--install" ]; then
+mkdir -p assets/css assets/js
+
+if [ ! -d "node_modules" ] || [ "$1" == "-i" ] || [ "$1" == "--install" ]; then
 	gem update
 	gem install bundler
 	bundle install

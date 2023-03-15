@@ -4,13 +4,11 @@ _site
 .bundle
 .vendor
 .vscode
-*.code-workspace
-assets/css/*.map
-assets/css/style.css
-assets/js/*.map
+assets/css
+assets/js
 vendor/*
 node_modules
 Gemfile.lock
 package-lock.json
-yarn.lock
+*.code-workspace
 *.log
