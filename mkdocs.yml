@@ -1,0 +1,60 @@
+INHERIT: docs/common/config.yml
+
+site_name: "Notes"
+site_url: "https://redtide.github.io/notes"
+site_description: "Shared notes"
+
+#copyright: "Copyright &copy; 2019 - 2023 redtide"
+#repo_name: "GitHub"
+#repo_url: "https://github.com/redtide/notes"
+
+extra:
+  homepage: "/notes/en/"
+  social:
+  - icon: "fontawesome/brands/github"
+    link: "https://github.com/redtide/notes"
+    name: "Notes on GitHub"
+
+nav:
+- "redtide.github.io": "https://redtide.github.io"
+- "en/index.md"
+- "Other Docs":
+  - "Behringer X-Air":   "https://redtide.github.io/wiki-x-air/"
+  - "CppCoreGuidelines": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+  - "SFZ Format":        "https://sfzformat.github.io/"
+- "Build":
+  - "en/build/mingw-w64.md"
+- "Deployment":
+  - "en/deploy/ci/appveyor.md"
+  - "en/deploy/ci/travis.md"
+- "Git":
+  - "en/git/commits.md"
+  - "en/git/push-and-pull.md"
+  - "en/git/rebase.md"
+  - "en/git/remotes.md"
+  - "en/git/submodules.md"
+- "GitHub":
+  - "en/github/rest-api.md"
+- "Jekyll":
+  - "en/jekyll/rvm.md"
+  - "en/jekyll/syntax-highlighting.md"
+- "Linux":
+  - "en/deploy/linux/appimage.md"
+  - "en/deploy/linux/macos-windows-icons.md"
+  - "Arch Wiki": "https://wiki.archlinux.org/"
+  - "en/deploy/linux/aur.md"
+  - "en/deploy/linux/pacman.md"
+- "macOS":
+  - "en/deploy/macos-dmg.md"
+- "Windows":
+  - "en/deploy/windows-innosetup.md"
+- "Qt":
+  - "en/qt/qtcreator.md"
+  - "en/qt/android.md"
+  - "en/qt/translations.md"
+  - "en/qt/archive/bluetooth-modules.md"
+  - "en/qt/archive/develop-android-apps-with-qt.md"
+- "OBS":
+  - "en/obs/index.md"
+- "VirtualBox":
+  - "en/virtualbox.md"
