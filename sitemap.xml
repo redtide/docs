@@ -1,102 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://redtide.github.io/notes/notes/news/2019/06/13/new-website-launched.html</loc>
-<lastmod>2019-06-13T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/404.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/qt/android.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/deploy/linux/appimg.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/deploy/ci/appveyor.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/deploy/linux/aur.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/qt/archive/bluetooth-modules.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/git/commits.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/qt/archive/develop-android-apps-with-qt.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/search/</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/obs/</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/news/archive/</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/deploy/macos-dmg.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/deploy/linux/macos-windows-icons.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/build/mingw64.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/deploy/linux/pacman.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/git/push-pull.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/qt/qtcreator.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/git/rebase.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/git/remotes.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/github/rest-api.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/jekyll/rvm.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/git/submodules.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/jekyll/syntax-highlighting.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/qt/translations.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/deploy/ci/travis.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/virtualbox.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/deploy/windows-innosetup.html</loc>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/qt/archive/Bluetooth_module_btm222.pdf</loc>
-<lastmod>2023-03-15T17:01:22+00:00</lastmod>
-</url>
-<url>
-<loc>https://redtide.github.io/notes/notes/en/qt/archive/HC-Serial-Bluetooth-Products.pdf</loc>
-<lastmod>2023-03-15T17:01:22+00:00</lastmod>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://redtide.github.io/notes/en/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/virtualbox/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/build/mingw-w64/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/deploy/macos-dmg/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/deploy/windows-innosetup/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/deploy/ci/appveyor/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/deploy/ci/travis/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/deploy/linux/appimage/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/deploy/linux/aur/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/deploy/linux/macos-windows-icons/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/deploy/linux/pacman/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/git/commits/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/git/push-and-pull/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/git/rebase/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/git/remotes/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/git/submodules/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/github/rest-api/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/jekyll/rvm/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/jekyll/syntax-highlighting/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/obs/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/qt/android/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/qt/qtcreator/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/qt/translations/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/qt/archive/bluetooth-modules/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://redtide.github.io/notes/en/qt/archive/develop-android-apps-with-qt/</loc>
+         <lastmod>2023-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
