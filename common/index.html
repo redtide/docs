@@ -12,27 +12,23 @@
         <meta name="author" content="redtide">
       
       
-        <link rel="canonical" href="https://redtide.github.io/notes/en/git/rebase/">
+        <link rel="canonical" href="https://redtide.github.io/notes/common/">
       
       
-        <link rel="prev" href="../push-and-pull/">
       
-      
-        <link rel="next" href="../remotes/">
-      
-      <link rel="icon" href="../../../assets/ico/favicon.ico">
+      <link rel="icon" href="../assets/ico/favicon.ico">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.3">
     
     
       
-        <title>Rebase - Notes</title>
+        <title>website-common - Notes</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.c4a75a56.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.c4a75a56.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.a0c5b2b5.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a0c5b2b5.min.css">
       
       
 
@@ -42,9 +38,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../common/stylesheets/extra.css">
+      <link rel="stylesheet" href="stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#rebase" class="md-skip">
+        <a href="#website-common" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +87,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="/notes/en/" title="Notes" class="md-header__button md-logo" aria-label="Notes" data-md-component="logo">
       
-  <img src="../../../assets/img/logo.png" alt="logo">
+  <img src="../assets/img/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -107,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Rebase
+              website-common
             
           </span>
         </div>
@@ -196,7 +192,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="/notes/en/" title="Notes" class="md-nav__button md-logo" aria-label="Notes" data-md-component="logo">
       
-  <img src="../../../assets/img/logo.png" alt="logo">
+  <img src="../assets/img/logo.png" alt="logo">
 
     </a>
     Notes
@@ -227,7 +223,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../" class="md-nav__link">
+      <a href="../en/" class="md-nav__link">
         Welcome
       </a>
     </li>
@@ -346,7 +342,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../build/mingw-w64/" class="md-nav__link">
+      <a href="../en/build/mingw-w64/" class="md-nav__link">
         MinGW-w64
       </a>
     </li>
@@ -395,7 +391,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../deploy/ci/appveyor/" class="md-nav__link">
+      <a href="../en/deploy/ci/appveyor/" class="md-nav__link">
         Appveyor
       </a>
     </li>
@@ -409,7 +405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../deploy/ci/travis/" class="md-nav__link">
+      <a href="../en/deploy/ci/travis/" class="md-nav__link">
         Travis
       </a>
     </li>
@@ -429,16 +425,14 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
       
       
       
@@ -447,7 +441,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
           Git
@@ -460,7 +454,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../commits/" class="md-nav__link">
+      <a href="../en/git/commits/" class="md-nav__link">
         Commits
       </a>
     </li>
@@ -474,7 +468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../push-and-pull/" class="md-nav__link">
+      <a href="../en/git/push-and-pull/" class="md-nav__link">
         Push and pull
       </a>
     </li>
@@ -486,59 +480,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Rebase
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../en/git/rebase/" class="md-nav__link">
         Rebase
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#update-the-current-branch-from-upstream-without-a-merge-commit" class="md-nav__link">
-    Update the current branch from upstream without a merge commit
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rebase-on-different-branch" class="md-nav__link">
-    Rebase on different branch
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -550,7 +496,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../remotes/" class="md-nav__link">
+      <a href="../en/git/remotes/" class="md-nav__link">
         Remotes
       </a>
     </li>
@@ -564,7 +510,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../submodules/" class="md-nav__link">
+      <a href="../en/git/submodules/" class="md-nav__link">
         Submodules
       </a>
     </li>
@@ -613,7 +559,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../github/rest-api/" class="md-nav__link">
+      <a href="../en/github/rest-api/" class="md-nav__link">
         REST API
       </a>
     </li>
@@ -662,7 +608,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../jekyll/rvm/" class="md-nav__link">
+      <a href="../en/jekyll/rvm/" class="md-nav__link">
         Install RVM
       </a>
     </li>
@@ -676,7 +622,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../jekyll/syntax-highlighting/" class="md-nav__link">
+      <a href="../en/jekyll/syntax-highlighting/" class="md-nav__link">
         Syntax Highlighting
       </a>
     </li>
@@ -725,7 +671,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../deploy/linux/appimage/" class="md-nav__link">
+      <a href="../en/deploy/linux/appimage/" class="md-nav__link">
         AppImage
       </a>
     </li>
@@ -739,7 +685,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../deploy/linux/macos-windows-icons/" class="md-nav__link">
+      <a href="../en/deploy/linux/macos-windows-icons/" class="md-nav__link">
         macOS & Windows Icons
       </a>
     </li>
@@ -767,7 +713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../deploy/linux/aur/" class="md-nav__link">
+      <a href="../en/deploy/linux/aur/" class="md-nav__link">
         Creating AUR Packages
       </a>
     </li>
@@ -781,7 +727,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../deploy/linux/pacman/" class="md-nav__link">
+      <a href="../en/deploy/linux/pacman/" class="md-nav__link">
         pacman
       </a>
     </li>
@@ -830,7 +776,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../deploy/macos-dmg/" class="md-nav__link">
+      <a href="../en/deploy/macos-dmg/" class="md-nav__link">
         Creating Apple Disk Images
       </a>
     </li>
@@ -879,7 +825,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../deploy/windows-innosetup/" class="md-nav__link">
+      <a href="../en/deploy/windows-innosetup/" class="md-nav__link">
         InnoSetup
       </a>
     </li>
@@ -928,7 +874,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../qt/qtcreator/" class="md-nav__link">
+      <a href="../en/qt/qtcreator/" class="md-nav__link">
         Qt Creator
       </a>
     </li>
@@ -942,7 +888,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../qt/android/" class="md-nav__link">
+      <a href="../en/qt/android/" class="md-nav__link">
         Qt Creator Android Setup
       </a>
     </li>
@@ -956,7 +902,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../qt/translations/" class="md-nav__link">
+      <a href="../en/qt/translations/" class="md-nav__link">
         Translations
       </a>
     </li>
@@ -970,7 +916,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../qt/archive/bluetooth-modules/" class="md-nav__link">
+      <a href="../en/qt/archive/bluetooth-modules/" class="md-nav__link">
         Bluetooth modules
       </a>
     </li>
@@ -984,7 +930,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../qt/archive/develop-android-apps-with-qt/" class="md-nav__link">
+      <a href="../en/qt/archive/develop-android-apps-with-qt/" class="md-nav__link">
         Develop Android apps with Qt
       </a>
     </li>
@@ -1033,7 +979,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../obs/" class="md-nav__link">
+      <a href="../en/obs/" class="md-nav__link">
         OBS
       </a>
     </li>
@@ -1082,7 +1028,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../virtualbox/" class="md-nav__link">
+      <a href="../en/virtualbox/" class="md-nav__link">
         VirtualBox
       </a>
     </li>
@@ -1116,28 +1062,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#update-the-current-branch-from-upstream-without-a-merge-commit" class="md-nav__link">
-    Update the current branch from upstream without a merge commit
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rebase-on-different-branch" class="md-nav__link">
-    Rebase on different branch
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1151,16 +1075,8 @@
                   
 
 
-<h1 id="rebase">Rebase</h1>
-<h2 id="update-the-current-branch-from-upstream-without-a-merge-commit">Update the current branch from upstream without a merge commit</h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git<span class="w"> </span>fetch<span class="w"> </span>upstream<span class="w"> </span>develop
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>git<span class="w"> </span>rebase<span class="w"> </span>upstream/develop
-</code></pre></div>
-<h2 id="rebase-on-different-branch">Rebase on different branch</h2>
-<p>Example: currently merged into <code>develop</code>, merge into <code>master</code> instead:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git<span class="w"> </span>rebase<span class="w"> </span>--onto<span class="o">=</span>master<span class="w"> </span>develop
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>git<span class="w"> </span>push<span class="w"> </span>-f
-</code></pre></div>
+<h1 id="website-common">website-common</h1>
+<p>Common files shared between projects' documentation</p>
 
 
 
@@ -1215,10 +1131,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.action.edit", "content.action.view", "content.code.copy", "header.autohide", "navigation.top"], "search": "../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.action.edit", "content.action.view", "content.code.copy", "header.autohide", "navigation.top"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.efa0ade1.min.js"></script>
+      <script src="../assets/javascripts/bundle.efa0ade1.min.js"></script>
       
     
   </body>
