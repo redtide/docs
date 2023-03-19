@@ -2,132 +2,132 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://redtide.github.io/notes/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/virtualbox/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/build/mingw-w64/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/deploy/macos-dmg/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/deploy/windows-innosetup/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/deploy/ci/appveyor/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/deploy/ci/travis/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/deploy/linux/appimage/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/deploy/linux/aur/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/deploy/linux/macos-windows-icons/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/deploy/linux/pacman/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/git/commits/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/git/push-and-pull/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/git/rebase/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/git/remotes/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/git/submodules/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/github/rest-api/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/jekyll/rvm/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/jekyll/syntax-highlighting/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/obs/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/qt/android/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/qt/qtcreator/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/qt/translations/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/qt/archive/bluetooth-modules/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://redtide.github.io/notes/en/qt/archive/develop-android-apps-with-qt/</loc>
-         <lastmod>2023-03-18</lastmod>
+         <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
