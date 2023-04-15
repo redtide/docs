@@ -15,6 +15,9 @@ extra:
     link: "https://github.com/redtide/notes"
     name: "Notes on GitHub"
 
+plugins:
+  with-pdf: {}
+
 nav:
 - "redtide.github.io": "https://redtide.github.io"
 - "en/index.md"
@@ -29,6 +32,7 @@ nav:
   - "en/deploy/ci/travis.md"
 - "Git":
   - "en/git/commits.md"
+  - "en/git/orphan-branch.md"
   - "en/git/push-and-pull.md"
   - "en/git/rebase.md"
   - "en/git/remotes.md"
