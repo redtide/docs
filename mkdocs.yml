@@ -15,8 +15,8 @@ extra:
     link: "https://github.com/redtide/notes"
     name: "Notes on GitHub"
 
-plugins:
-  with-pdf: {}
+#plugins:
+#  with-pdf: {}
 
 nav:
 - "redtide.github.io": "https://redtide.github.io"
