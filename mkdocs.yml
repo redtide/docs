@@ -25,11 +25,9 @@ nav:
   - "Behringer X-Air":   "https://redtide.github.io/wiki-x-air/"
   - "CppCoreGuidelines": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
   - "SFZ Format":        "https://sfzformat.github.io/"
-- "Build":
-  - "en/build/mingw-w64.md"
-- "Deployment":
-  - "en/deploy/ci/appveyor.md"
-  - "en/deploy/ci/travis.md"
+- "CI":
+  - "en/ci/appveyor.md"
+  - "en/ci/travis.md"
 - "Git":
   - "en/git/commits.md"
   - "en/git/orphan-branch.md"
@@ -43,15 +41,26 @@ nav:
   - "en/jekyll/rvm.md"
   - "en/jekyll/syntax-highlighting.md"
 - "Linux":
-  - "en/deploy/linux/appimage.md"
-  - "en/deploy/linux/macos-windows-icons.md"
-  - "Arch Wiki": "https://wiki.archlinux.org/"
-  - "en/deploy/linux/aur.md"
-  - "en/deploy/linux/pacman.md"
+  - "Arch":
+    - "External Links":
+      - "DevTools":
+        - "Repository": "https://gitlab.archlinux.org/archlinux/devtools"
+        - "Manual": "https://man.archlinux.org/man/devtools.7.en"
+        - "Vultr Article": "https://www.vultr.com/docs/using-devtools-on-arch-linux/"
+      - "Other Tools":
+        - "namcap": "https://man.archlinux.org/man/namcap.1"
+        - "updpkgsums": "https://man.archlinux.org/man/updpkgsums.8.en"
+      - "Package Guidelines": "https://wiki.archlinux.org/title/Arch_package_guidelines"
+      - "Wiki": "https://wiki.archlinux.org/"
+    - "en/linux/arch/aur.md"
+    - "en/linux/arch/pacman.md"
+  - "en/linux/appimage.md"
+  - "en/linux/macos-windows-icons.md"
 - "macOS":
-  - "en/deploy/macos-dmg.md"
+  - "en/macos/dmg.md"
 - "Windows":
-  - "en/deploy/windows-innosetup.md"
+  - "en/windows/innosetup.md"
+  - "en/windows/mingw-w64.md"
 - "Qt":
   - "en/qt/qtcreator.md"
   - "en/qt/android.md"
