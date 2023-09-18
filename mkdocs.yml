@@ -19,55 +19,57 @@ extra:
 #  with-pdf: {}
 
 nav:
-- "redtide.github.io": "https://redtide.github.io"
+- redtide.github.io:   "https://redtide.github.io"
 - "en/index.md"
-- "Other Docs":
-  - "Behringer X-Air":   "https://redtide.github.io/wiki-x-air/"
-  - "CppCoreGuidelines": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
-  - "SFZ Format":        "https://sfzformat.github.io/"
-- "CI":
+- Other Docs:
+  - Behringer X-Air:   "https://redtide.github.io/wiki-x-air/"
+  - CppCoreGuidelines: "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+  - SFZ Format:        "https://sfzformat.github.io/"
+- CI:
   - "en/ci/appveyor.md"
   - "en/ci/travis.md"
-- "Git":
+- Git:
   - "en/git/commits.md"
   - "en/git/orphan-branch.md"
   - "en/git/push-and-pull.md"
   - "en/git/rebase.md"
   - "en/git/remotes.md"
   - "en/git/submodules.md"
-- "GitHub":
+- GitHub:
   - "en/github/rest-api.md"
-- "Jekyll":
+- Jekyll:
   - "en/jekyll/rvm.md"
   - "en/jekyll/syntax-highlighting.md"
-- "Linux":
-  - "Arch":
-    - "External Links":
-      - "DevTools":
-        - "Repository": "https://gitlab.archlinux.org/archlinux/devtools"
-        - "Manual": "https://man.archlinux.org/man/devtools.7.en"
-        - "Vultr Article": "https://www.vultr.com/docs/using-devtools-on-arch-linux/"
-      - "Other Tools":
-        - "namcap": "https://man.archlinux.org/man/namcap.1"
-        - "updpkgsums": "https://man.archlinux.org/man/updpkgsums.8.en"
-      - "Package Guidelines": "https://wiki.archlinux.org/title/Arch_package_guidelines"
-      - "Wiki": "https://wiki.archlinux.org/"
+- Android:
+  - "en/android/custom-rom.md"
+- Linux:
+  - Arch:
+    - External Links:
+      - DevTools:
+        - Repository: "https://gitlab.archlinux.org/archlinux/devtools"
+        - Manual: "https://man.archlinux.org/man/devtools.7.en"
+        - Vultr Article: "https://www.vultr.com/docs/using-devtools-on-arch-linux/"
+      - Other Tools:
+        - namcap: "https://man.archlinux.org/man/namcap.1"
+        - updpkgsums: "https://man.archlinux.org/man/updpkgsums.8.en"
+      - Package Guidelines: "https://wiki.archlinux.org/title/Arch_package_guidelines"
+      - Wiki: "https://wiki.archlinux.org/"
     - "en/linux/arch/aur.md"
     - "en/linux/arch/pacman.md"
   - "en/linux/appimage.md"
   - "en/linux/macos-windows-icons.md"
-- "macOS":
+- macOS:
   - "en/macos/dmg.md"
-- "Windows":
+- Windows:
   - "en/windows/innosetup.md"
   - "en/windows/mingw-w64.md"
-- "Qt":
+- Qt:
   - "en/qt/qtcreator.md"
   - "en/qt/android.md"
   - "en/qt/translations.md"
   - "en/qt/archive/bluetooth-modules.md"
   - "en/qt/archive/develop-android-apps-with-qt.md"
-- "OBS":
+- OpenSUSE Build Service:
   - "en/obs/index.md"
-- "VirtualBox":
+- VirtualBox:
   - "en/virtualbox.md"
