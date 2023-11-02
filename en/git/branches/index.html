@@ -12,13 +12,13 @@
         <meta name="author" content="redtide">
       
       
-        <link rel="canonical" href="https://redtide.github.io/notes/en/github/rest-api/">
+        <link rel="canonical" href="https://redtide.github.io/notes/en/git/branches/">
       
       
-        <link rel="prev" href="../../git/submodules/">
+        <link rel="prev" href="../../ci/travis/">
       
       
-        <link rel="next" href="../../jekyll/rvm/">
+        <link rel="next" href="../commits/">
       
       
       <link rel="icon" href="../../../assets/ico/favicon.ico">
@@ -26,7 +26,7 @@
     
     
       
-        <title>REST API - Notes</title>
+        <title>Branches - Notes</title>
       
     
     
@@ -77,7 +77,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#rest-api" class="md-skip">
+        <a href="#branches" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              REST API
+              Branches
             
           </span>
         </div>
@@ -448,18 +448,20 @@
       
   
   
+    
+  
   
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -473,7 +475,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Git
@@ -484,9 +486,29 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../git/branches/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Branches
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -495,6 +517,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#copy-to-new-repository-manual-fork" class="md-nav__link">
+    Copy to new repository (manual fork)
+  </a>
+  
+    <nav class="md-nav" aria-label="Copy to new repository (manual fork)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#all" class="md-nav__link">
+    All
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#one-optionally-renamed" class="md-nav__link">
+    One optionally renamed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -506,7 +575,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../git/commits/" class="md-nav__link">
+      <a href="../commits/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -526,7 +595,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../git/orphan-branch/" class="md-nav__link">
+      <a href="../orphan-branch/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -546,7 +615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../git/push-and-pull/" class="md-nav__link">
+      <a href="../push-and-pull/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -566,7 +635,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../git/rebase/" class="md-nav__link">
+      <a href="../rebase/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -586,7 +655,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../git/remotes/" class="md-nav__link">
+      <a href="../remotes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -606,7 +675,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../git/submodules/" class="md-nav__link">
+      <a href="../submodules/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -631,20 +700,18 @@
       
   
   
-    
-  
   
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
           <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
@@ -658,7 +725,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             GitHub
@@ -669,29 +736,9 @@
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    REST API
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../github/rest-api/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -700,40 +747,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#release-assets-download" class="md-nav__link">
-    Release assets download
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#run-actions-workflow" class="md-nav__link">
-    Run Actions workflow
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1773,16 +1786,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#release-assets-download" class="md-nav__link">
-    Release assets download
+  <a href="#copy-to-new-repository-manual-fork" class="md-nav__link">
+    Copy to new repository (manual fork)
+  </a>
+  
+    <nav class="md-nav" aria-label="Copy to new repository (manual fork)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#all" class="md-nav__link">
+    All
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#run-actions-workflow" class="md-nav__link">
-    Run Actions workflow
+        
+          <li class="md-nav__item">
+  <a href="#one-optionally-renamed" class="md-nav__link">
+    One optionally renamed
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1801,34 +1827,28 @@
                   
 
 
-<h1 id="rest-api">REST API</h1>
-<h2 id="release-assets-download"><a href="https://docs.github.com/en/rest/reference/repos#get-a-release-asset">Release assets</a> download</h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>curl<span class="w"> </span>-LJO<span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span>-u<span class="w"> </span><span class="si">${</span><span class="nv">username</span><span class="si">}</span>:<span class="si">${</span><span class="nv">token</span><span class="si">}</span><span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span>-H<span class="w"> </span><span class="s2">&quot;Accept: application/octet-stream&quot;</span><span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span>https://api.github.com/repos/<span class="si">${</span><span class="nv">username</span><span class="si">}</span>/<span class="si">${</span><span class="nv">repo</span><span class="si">}</span>/releases/assets/<span class="si">${</span><span class="nv">asset_id</span><span class="si">}</span>
-</code></pre></div>
+<h1 id="branches">Branches</h1>
+<h2 id="copy-to-new-repository-manual-fork">Copy to new repository (manual fork)</h2>
 <ul>
-<li>Create a <a href="https://github.com/settings/tokens">token</a> on your GitHub account on
-  <code>Settings &gt; Developer settings &gt; Personal access tokens</code>; use all <code>repo</code>
-  authorizations to download release assets also from private repositories.
-  On GitHub Actions the variable {% raw %}${{ secrets.GITHUB_TOKEN }}{% endraw %}
-  can be used instead.</li>
-<li>To obtain the <code>asset_id</code>:</li>
+<li>Create a new remote repository, e.g.: <code>https://github.com/your-account/new-repo.git</code></li>
+<li>Enter in the original local clone:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">cd</span><span class="w"> </span>original-repo
+</code></pre></div></li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>curl<span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span>-u<span class="w"> </span><span class="si">${</span><span class="nv">username</span><span class="si">}</span>:<span class="si">${</span><span class="nv">token</span><span class="si">}</span><span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span>-H<span class="w"> </span><span class="s2">&quot;Accept: application/vnd.github.v3+json&quot;</span><span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span>https://api.github.com/repos/<span class="si">${</span><span class="nv">username</span><span class="si">}</span>/<span class="si">${</span><span class="nv">repo</span><span class="si">}</span>/releases/tags/<span class="si">${</span><span class="nv">tag_name</span><span class="si">}</span>
+<h3 id="all">All</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git<span class="w"> </span>push<span class="w"> </span>--all<span class="w"> </span>origin<span class="w"> </span><span class="c1"># or other name</span>
 </code></pre></div>
-<h2 id="run-actions-workflow">Run Actions workflow</h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>curl<span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>-u<span class="w"> </span><span class="si">${</span><span class="nv">username</span><span class="si">}</span>:<span class="si">${</span><span class="nv">token</span><span class="si">}</span><span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>-X<span class="w"> </span>POST<span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>-H<span class="w"> </span><span class="s2">&quot;Accept: application/vnd.github.v3+json&quot;</span><span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>https://api.github.com/repos/<span class="si">${</span><span class="nv">username</span><span class="si">}</span>/<span class="si">${</span><span class="nv">repo</span><span class="si">}</span>/actions/workflows/<span class="si">${</span><span class="nv">yml_filename</span><span class="si">}</span>/dispatches<span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>-d<span class="w"> </span><span class="s1">&#39;{&quot;ref&quot;:&quot;${branch}&quot;}&#39;</span>
-</code></pre></div>
+<h3 id="one-optionally-renamed">One optionally renamed</h3>
+<ul>
+<li>Checkout the wanted branch:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>branch-name
+</code></pre></div></li>
+<li>Push:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git<span class="w"> </span>push<span class="w"> </span>https://github.com/your-account/new-repo.git<span class="w"> </span><span class="se">\</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">  </span>+branch-name:new-name<span class="w"> </span><span class="se">\</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">  </span>+other-branch-name:other-new-name
+</code></pre></div></li>
+</ul>
 
 
 
