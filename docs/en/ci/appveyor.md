@@ -9,7 +9,7 @@
 - [Encrypt the token][4]
 - Add the encrypted token string to the configuration file
 
-Source: [Publishing artifacts to GitHub Releases](5)
+Source: [Publishing artifacts to GitHub Releases][5]
 
 
 [1]: https://ci.appveyor.com/signup

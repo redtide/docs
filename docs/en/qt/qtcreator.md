@@ -12,7 +12,7 @@ it is not possible to move it without repeat the installation.
 
 E.g.: `$HOME/Documents/Development/Qt/Toolchain/N.NN.N`
 
-See the [Android page](Android) for how to install and configure the Android toolchain.
+See the [Android page](android.md) for how to install and configure the Android toolchain.
 
 ## Configuration
 
