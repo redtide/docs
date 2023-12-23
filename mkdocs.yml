@@ -45,6 +45,8 @@ nav:
 - Jekyll:
   - "en/jekyll/rvm.md"
   - "en/jekyll/syntax-highlighting.md"
+- MKDocs:
+  - "en/mkdocs/assignments.md"
 - Android:
   - "en/android/custom-rom.md"
 - Linux:
