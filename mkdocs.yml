@@ -65,6 +65,8 @@ nav:
     - "en/linux/arch/pacman.md"
   - "en/linux/appimage.md"
   - "en/linux/macos-windows-icons.md"
+  - LXQt:
+    - "en/lxqt/xdg-desktop-portal.md"
 - macOS:
   - "en/macos/dmg.md"
 - Windows:
