@@ -50,6 +50,7 @@ nav:
 - Android:
   - "en/android/custom-rom.md"
 - Linux:
+  - "en/linux/appimage.md"
   - Arch:
     - External Links:
       - DevTools:
@@ -63,10 +64,10 @@ nav:
       - Wiki: "https://wiki.archlinux.org/"
     - "en/linux/arch/aur.md"
     - "en/linux/arch/pacman.md"
-  - "en/linux/appimage.md"
-  - "en/linux/macos-windows-icons.md"
+  - "en/linux/lid.md"
   - LXQt:
     - "en/lxqt/xdg-desktop-portal.md"
+  - "en/linux/macos-windows-icons.md"
 - macOS:
   - "en/macos/dmg.md"
 - Windows:
